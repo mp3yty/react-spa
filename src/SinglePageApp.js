@@ -14,7 +14,7 @@ class SinglePageApp extends Component {
                 <li><Link to="/code">Code</Link></li> 
                 <li><Link to="/tickets">Tickets</Link></li>
             </ul>
-            <Route exact path="/" component={Dashboard} />
+            <Route path="/" component={Dashboard} />
             <Route path="/code" component={Code} /> 
             <Route path="/tickets" component={Tickets} />
         </div>
